@@ -1,0 +1,145 @@
+/*(min-width:576px) and (max-width:767px)*/
+
+/*------------ header ----------------*/
+.header_wrap{
+ /*background: blue;*/
+}
+.header{
+  width: 100%;
+}
+.header h1{
+	margin-left: 10px;
+}
+/*------------ nav ----------------*/
+.nav{
+	width: 100%;
+}
+.nav ul li{
+	padding: 0 15px;
+}
+/*--------- banner -----------------*/
+.slide_wrap{
+	width: 100%;
+	height: 380px;
+}
+
+.slide{
+	/*width: 2000px;*/
+}
+
+.banner{
+	width: 100%;
+	height: 380px;
+}
+
+.banner figure{
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+.banner figure img{
+ 	width: 100%;
+ 	/*border: 1px solid #000;*/
+
+}
+
+.caption{
+ 	/*border: 1px solid #000;*/
+}
+
+/*----------  bannerNav  ------------------*/
+.bannerNav{
+	width: 100%
+	height: 75px;
+}
+/*------- special --------------*/
+.special{
+ width: 100%;
+ justify-content: space-around;
+}
+
+.special figure{
+	width: 29%;
+}
+
+
+
+/*---------  bestseller  -------------------*/
+.bestseller{
+	width: 100%;
+	height: 380px;
+}
+
+.bestseller .title{
+	margin:0 10px;
+}
+
+.best_product{
+ justify-content: space-around;
+
+}
+
+.best_product h3{
+	text-align: right;
+	font-size: 18px;
+
+}
+
+.best_product hgroup{
+	width: 29%;
+}
+
+.best_icon{
+	top: 2px;
+}
+
+
+.best_info:hover .bast_price{
+ display: none;
+}
+
+
+/*------ news -------------*/
+.news{
+	width: 100%;
+	height: 420px;
+
+}
+
+.news_shop{
+	margin-left: 10px;
+	box-sizing: border-box;
+	width: 22%;
+}
+
+.news_blog{
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+
+.item_1 span,.item_4 span{
+	line-height: 14px;
+}
+
+.item_1{
+ order: 3;
+}
+.item_2{
+ order: 1;
+}
+.item_3{
+ order: 4;
+}
+.item_4{
+ order: 2;
+}
+
+/*-----  footer -------------*/
+.footer{
+	width: 100%;
+	padding: 0 10px;
+	box-sizing: border-box;
+ 	border: 1px solid #fff;
+ 	/*background: blue;*/
+
+}

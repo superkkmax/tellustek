@@ -1,0 +1,220 @@
+/*screen and (max-width:575px)*/
+/*------------ header ----------------*/
+.header_wrap{
+ /*background: orange;*/
+}
+.header{
+  width: 100%;
+}
+.header h1{
+	margin-left: 10px;
+	font-size: 14px;
+}
+.header span{
+	display: none;
+}
+
+/*------------ nav ----------------*/
+.nav{
+	width: 100%;
+}
+.nav ul{
+	display:none;
+}
+
+.star,.shop{
+	padding: 0 10px;
+
+	}
+
+/*--------- banner -----------------*/
+.slide_wrap{
+	width: 100%;
+	height: 580px;
+
+}
+.banner{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.banner h1{
+	font-size: 45px;
+}
+.banner figure{
+	width: 100%;
+	padding-left: 0;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+}
+
+.banner figure img{
+ 	width: 100%;
+ 	/*border: 1px solid #000;*/
+
+}
+
+.caption{
+	padding: 0;
+	width: 100%;
+}
+
+/*----------  bannerNav  ------------------*/
+.bannerNav{
+	width: 100%
+	height: 75px;
+}
+.bannerNav h4{
+	font-size: 18px;
+}
+
+.bannerNav h5{
+	display: none;
+}
+
+/*------- special --------------*/
+.special{
+ width: 100%;
+ /*justify-content: space-around;*/
+ flex-direction: column;
+ /*display: block;*/
+ height: 100%;
+ padding-top: 12px;
+}
+
+.special figure{
+	width: 80%;
+	margin-bottom: 15px;
+}
+
+/*---------  bestseller  -------------------*/
+.bestseller{
+	width: 100%;
+	height: 100%;
+}
+
+.bestseller .title{
+	height: 100%;
+	padding:15px 10px;
+}
+.bestseller .title h3{
+	font-size: 20px;
+}
+
+
+.best_product{
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+
+
+}
+
+.best_product h3{
+	text-align: center;
+	font-size: 20px;
+	padding:15px 10px 15px 10px;
+}
+
+
+.best_product hgroup{
+	width: 80%;
+	margin-bottom: 15px;
+}
+
+.bast_price{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	bottom: 0px;
+
+	}
+/*------ news -------------*/
+.news{
+	width: 100%;
+	display: block;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.news_shop{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 15px;
+}
+
+.news_shop .space{
+	padding-bottom: 25px;: 
+}
+
+.news_shop span{
+ line-height: 16px;
+}
+.news_blog{
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+.item_1 .name,.item_4 .name{
+	padding: 10px 0 0 0; 
+
+}
+.item_1 span{
+	line-height: 14px;
+}
+
+.item_1{
+ order: 3;
+ width: 100%;
+ height: 100%;
+ margin-bottom: 15px;
+
+}
+.item_2{
+ order: 1;
+ width: 100%;
+ height: 100%;
+ margin-bottom: 15px;
+
+}
+.item_3{
+ order: 4;
+ width: 100%;
+ height: 100%;
+ margin-bottom: 0px;
+
+}
+.item_4{
+ order: 2;
+ width: 100%;
+ height: 100%;
+ margin-bottom: 15px;
+
+}
+
+/*-----  footer -------------*/
+.footer{
+	width: 100%;
+	padding: 0 10px;
+	box-sizing: border-box;
+ 	border: 1px solid #fff;
+ 	/*background: orange;*/
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	height: 100%;
+ 	padding: 15px;
+}
+
+.mt-8{
+	margin-top: 8px;
+}
+
+/*.........漢堡條.....................*/
+
+#line_nev{
+	display: block;
+}

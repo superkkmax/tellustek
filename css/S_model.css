@@ -1,0 +1,189 @@
+/*(min-width:576px) and (max-width:767px)*/
+/*------------ header ----------------*/
+.header_wrap{
+ /*background: green;*/
+}
+.header{
+  width: 100%;
+}
+.header h1{
+	margin-left: 10px;
+}
+/*------------ nav ----------------*/
+.nav{
+	width: 100%;
+}
+.nav ul li{
+	padding: 0 10px;
+}
+
+.star,.shop{
+	padding: 0 10px;
+
+	}
+
+/*--------- banner -----------------*/
+.slide_wrap{
+	width: 100%;
+	height: 380px;
+}
+
+.banner{
+	width: 100%;
+	height: 380px;
+}
+.banner h1{
+	font-size: 35px;
+}
+.banner figure{
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+.banner figure img{
+ 	width: 100%;
+ 	/*border: 1px solid #000;*/
+
+}
+
+.caption{
+ 	/*border: 1px solid #000;*/
+}
+
+/*----------  bannerNav  ------------------*/
+.bannerNav{
+	width: 100%
+	height: 75px;
+}
+/*------- special --------------*/
+.special{
+ width: 100%;
+ justify-content: space-around;
+}
+
+.special figure{
+	width: 29%;
+}
+
+/*---------  bestseller  -------------------*/
+.bestseller{
+	width: 100%;
+	height: 380px;
+}
+
+.bestseller .title{
+	margin:0 10px;
+}
+
+.best_product{
+ justify-content: space-around;
+
+}
+
+.best_product h3{
+	text-align: right;
+	font-size: 14px;
+	padding:15px 10px 15px 10px;
+}
+
+
+.best_product hgroup{
+	width: 29%;
+}
+
+.best_product figure{
+	background-size: 85% 50%;
+}
+
+.bast_price{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	bottom: 0px;
+
+}
+
+.best_icon{
+	top: 2px;
+}
+
+
+.best_info:hover .bast_price{
+ display: none;
+}
+
+/*------ news -------------*/
+.news{
+	width: 100%;
+	display: block;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.news_shop{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 15px;
+}
+
+.news_shop .space{
+	padding-bottom: 25px;: 
+}
+
+.news_shop span{
+ line-height: 16px;
+}
+.news_blog{
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+.item_1 .name,.item_4 .name{
+	padding: 10px 0 0 0; 
+
+}
+.item_1 span{
+	line-height: 14px;
+}
+
+.item_1{
+ order: 3;
+ width: 100%;
+ height: 100%;
+ margin-bottom: 15px;
+
+}
+.item_2{
+ order: 1;
+ width: 100%;
+ height: 100%;
+ margin-bottom: 15px;
+
+}
+.item_3{
+ order: 4;
+ width: 100%;
+ height: 100%;
+ margin-bottom: 0px;
+
+}
+.item_4{
+ order: 2;
+ width: 100%;
+ height: 100%;
+ margin-bottom: 15px;
+
+}
+
+/*-----  footer -------------*/
+.footer{
+	width: 100%;
+	padding: 0 10px;
+	box-sizing: border-box;
+ 	border: 1px solid #fff;
+ 	/*background: green;*/
+
+
+}

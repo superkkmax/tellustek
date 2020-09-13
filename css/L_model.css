@@ -1,0 +1,67 @@
+/*screen and (min-width:992px) */
+
+/*------------ header ----------------*/
+.header{
+  width: 940px;
+  /*background: red;*/
+}
+
+/*------------ nav ----------------*/
+.nav{
+	width: 940px;
+}
+
+/*--------- banner -----------------*/
+.slide_wrap{
+	width: 940px;
+}
+
+.banner{
+	width: 940px;
+}
+
+
+/*----------  bannerNav  ------------------*/
+.bannerNav{
+	width: 940px;
+}
+/*------- special --------------*/
+.special{
+ width: 940px;
+}
+
+
+/*---------  bestseller  -------------------*/
+.bestseller{
+	width: 940px;
+}
+
+
+.bast_price{
+	background: #57c5a0;
+	color: #fff;
+	font-size: 12px;
+	display: block;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	/*margin-bottom: 15px;*/
+	position: absolute;
+	bottom: 0px;
+	left: 10px;
+}
+
+/*------ news -------------*/
+.news{
+	width: 940px;
+	padding: 30px 0;
+
+}
+
+/*-----  footer -------------*/
+.footer{
+	width: 940px;
+ 	 /*background: red;*/
+
+}

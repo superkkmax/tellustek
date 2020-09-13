@@ -1,0 +1,23 @@
+/* for IE 11 */
+
+@media screen and (-ms-high-contrast: active),(-ms-high-contrast: none){
+	.header{
+		justify-content: flex-start;
+	}
+
+	.nav{
+		justify-content: flex-start;
+
+	}	
+
+	.best_icon{
+		top: 12px;
+
+	}
+
+	.best_icon img{
+	padding: 0;
+	margin-left:15px;
+	width: 30px;
+	}
+}
